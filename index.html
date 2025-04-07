@@ -1,40 +1,230 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muhammad Wildan - HumanBeing</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <title>Muhammad Wildan</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-black text-white">
-    <nav class="container mx-auto px-4 py-6 flex justify-between items-center">
-        <div class="text-lg font-semibold">Muhammad Wildan</div>
-        <div class="space-x-4">
-            <a href="#" class="text-white hover:text-gray-300">Beranda</a>
-            <a href="#" class="text-white hover:text-gray-300">Tentang</a>
-            <a href="#" class="text-white hover:text-gray-300">Pencapaian</a>
-            <a href="#" class="text-white hover:text-gray-300">Portofolio</a>
-            <a href="#" class="text-white hover:text-gray-300">Blog</a>
-        </div>
-    </nav>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a href="index.html">Muhammad Wildan</a>
+            </div>
+            <div class="navbar-menu">
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#pencapaian">Pencapaian</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-    <main class="container mx-auto px-4 min-h-screen flex items-center justify-between">
-        <div class="w-1/2 space-y-4">
-            <h1 class="text-5xl font-bold tracking-tight">MUHAMMAD WILDAN</h1>
-            <p class="text-2xl text-gray-300">HumanBeing.</p>
-            <div class="flex space-x-4 pt-4">
-                <a href="#" class="text-white hover:text-gray-300">
-                    <i class="fab fa-linkedin text-2xl"></i>
-                </a>
-                <a href="#" class="text-white hover:text-gray-300">
-                    <i class="fab fa-instagram text-2xl"></i>
-                </a>
+    <section id="beranda" class="hero">
+        <div class="hero-content">
+            <h1>MUHAMMAD WILDAN</h1>
+            <p>HumanBeing.</p>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
-        <div class="w-1/2 flex justify-end">
-            <img src="image/fotowildan.jpg" alt="Muhammad Wildan" class="grayscale object-cover h-[600px] w-[400px]">
+        <div class="hero-image">
+            <img src="image/fotowildan.jpg" alt="Muhammad Wildan">
         </div>
-    </main>
+    </section>
+
+    <section id="tentang" class="about">
+        <h2>Tentang Saya</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Saya Muhammad Wildan, mahasiswa Bisnis Digital di Universitas Negeri Makassar, dengan minat dalam UX/UI Design, bisnis berbasis teknologi, dan digital marketing. Saya senang mengeksplorasi tren digital dan menerapkan inovasi untuk menciptakan solusi yang berdampak.</p>
+                <p>Di luar akademik, saya hobi Music dan Memancing, yang mengajarkan saya kesabaran, ketelitian, dan strategi--prinsip yang juga saya terapkan dalam dunia profesional. Saya terbuka untuk kolaborasi dan diskusi seputar bisnis digital, desain, dan teknologi. Jangan ragu untuk menghubungi saya!</p>
+                <div class="download-cv">
+                    <a href="#" class="btn-download">Unduh CV <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="image/wildan.jpg" alt="Muhammad Wildan">
+            </div>
+        </div>
+    </section>
+
+    <section id="pencapaian" class="achievements">
+        <h2>Pencapaian</h2>
+        <div class="achievements-container">
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fas fa-trophy"></i>
+                </div>
+                <h3>Best UI Design Award 2023</h3>
+                <p>Penghargaan untuk desain aplikasi mobile terbaik di Indonesia Design Award</p>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fas fa-certificate"></i>
+                </div>
+                <h3>Google UX Design Certificate</h3>
+                <p>Sertifikasi profesional dari Google untuk UX Design</p>
+            </div>
+            <div class="achievement-card">
+                <div class="achievement-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Top Designer 2022</h3>
+                <p>Dinobatkan sebagai salah satu designer terbaik oleh Dribbble</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portofolio" class="portfolio">
+        <h2>Portofolio</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-item">
+                <img src="image/WhatsApp Image 2025-03-16 at 00.23.08_fbb1c814.jpg" alt="Portfolio 1">
+            </div>
+            <div class="portfolio-item">
+                <img src="image/WhatsApp Image 2025-03-16 at 00.23.39_9470c627.jpg" alt="Portfolio 2">
+            </div>
+            <div class="portfolio-item">
+                <img src="image/WhatsApp Image 2025-03-16 at 00.24.13_3c1c343d.jpg" alt="Portfolio 3">
+            </div>
+            <div class="portfolio-item">
+                <img src="image/WhatsApp Image 2025-03-16 at 00.25.17_7f142060.jpg" alt="Portfolio 4">
+            </div>
+            <div class="portfolio-item">
+                <img src="image/WhatsApp Image 2025-03-16 at 01.00.16_234f05dc.jpg" alt="Portfolio 5">
+            </div>
+            <div class="portfolio-item">
+                <img src="image/WhatsApp Image 2025-03-16 at 01.01.53_cf8d78f5.jpg" alt="Portfolio 6">
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog">
+        <h2>Blog</h2>
+        <div class="blog-container">
+            <div class="blog-row">
+                <div class="blog-left">
+                    <div class="blog-metrics">
+                        <div class="metric">
+                            <img src="image/Angka Pengangguran di Indonesia Tertinggi di….jpg" alt="Tingkat Pengangguran">
+                            <h4>Tingkat Pengangguran (%)</h4>
+                            <p>5.0 - 5.7</p>
+                        </div>
+                        <div class="metric">
+                            <img src="image/Human Development Index Vectors, Photos and PSD files _ Free Download.jpg" alt="Indeks Pembangunan Manusia">
+                            <h4>Indeks Pembangunan Manusia</h4>
+                            <p>73.99 - 74.02</p>
+                        </div>
+                        <div class="metric">
+                            <img src="image/Ekonomi Bali Membaik, Kemiskinan Menurun Hingga 4 Persen.jpg" alt="Tingkat Kemiskinan">
+                            <h4>Tingkat Kemiskinan (%)</h4>
+                            <p>6.5 - 7.5</p>
+                        </div>
+                    </div>
+                    <div class="blog-post">
+                        <h3>ANALISIS TARGET PEMBANGUNAN 2024</h3>
+                        <p>Memahami fundamental Ekonomi modern.</p>
+                        <span class="date"><i class="far fa-calendar"></i> 15 Mei 2024</span>
+                    </div>
+                </div>
+                <div class="blog-right">
+                    <div class="blog-post-large">
+                        <img src="image/banal.jpg" alt="Blog 1">
+                        <h3>Banalitas Etik dalam Pemilu</h3>
+                        <p>Politik Talk Kucing</p>
+                        <span class="date"><i class="far fa-calendar"></i> 10 Mei 2024</span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-row">
+                <div class="blog-left">
+                    <div class="blog-post">
+                        <img src="image/kesetaraan.jpg" alt="Blog 2">
+                        <h3>KESETARAAN GENDER</h3>
+                        <p>Finimisme.</p>
+                        <span class="date"><i class="far fa-calendar"></i> 15 Mei 2024</span>
+                    </div>
+                </div>
+                <div class="blog-right">
+                    <div class="blog-post-large">
+                        <img src="image/bisnis.jpg" alt="Blog 3">
+                        <h3>Other People Money The Real Business Of Finance</h3>
+                        <p>Politik Talk Kucing</p>
+                        <span class="date"><i class="far fa-calendar"></i> 10 Mei 2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="contact">
+        <h2>Kontak</h2>
+        <div class="contact-container">
+            <div class="contact-form">
+                <form>
+                    <div class="form-group">
+                        <label for="nama">Nama</label>
+                        <input type="text" id="nama" name="nama" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="pesan">Pesan</label>
+                        <textarea id="pesan" name="pesan" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Kirim Pesan</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Informasi Kontak</h3>
+                <ul>
+                    <li><i class="far fa-envelope"></i> Neurosick09@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> +62 812 3456 7890</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Makassar, Indonesia</li>
+                </ul>
+                <h3>Media Sosial</h3>
+                <div class="social-links">
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <a href="index.html">Muhammad Wildan</a>
+            </div>
+            <div class="footer-menu">
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
+                    <li><a href="#portofolio">Portofolio</a></li>
+                    <li><a href="#kontak">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#" target="_blank"><i class="fas fa-globe"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-behance"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Muhammad Wildan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Font Awesome for icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
 </body>
 </html>
